@@ -1,4 +1,5 @@
 
+
 /* Variabili */
 
 /* uso due utility classes e sovrascrivo il colore */
@@ -6,6 +7,8 @@
 :root {
   --bs-primary: #2A5FD9;
   --bs-warning: #CD3D10;
+  --bs-body-font-family: Arial, Helvetica;
+
 }
 
 
