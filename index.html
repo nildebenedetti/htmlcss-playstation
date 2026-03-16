@@ -17,15 +17,15 @@
 <body>
     <!-- header composto da hellobar + navbar-->
     <header class="header">
-     
+
         <div class="hellobar bg-black p-3 d-flex justify-content-end">
             <div class="sony-logo me-2">
                 <img src="img/sony_logo.svg" alt="Sny company logo" class="sonylogo " height="25px">
             </div>
         </div>
         <nav class="navbar navbar-expand-lg bg-body-white">
-    
-            <div class="container-fluid justify-content-spacebetween">
+            <!-- nella navbar ho creato due colonne con flex per raggruppare i singoli lelementi in due blocchi-->
+            <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="img/play_logo.svg" alt="PlayStation logo" class="ps-logo" height="50px">
                 </a>
@@ -35,75 +35,87 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
                     <!-- nella navbar ci saranno due principali raggruppamenti-->
-                    <div class="col-9">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <!--tutti gli elementi della navbar sono ul con i loro li-->
-                            <li class="nav-item dropdown giochi">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Giochi
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-9">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <!--tutti gli elementi della navbar sono ul con i loro li-->
+                                    <div class="container ">
+                                        <div class="row">
+                                            <div class="col-9 d-flex">
+                                                <li class="nav-item dropdown giochi">
+                                                    <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                        Giochi
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                        <li>
+                                                            <hr class="dropdown-divider">
+                                                        </li>
+                                                        <li><a class="dropdown-item" href="#">Something else here</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <!--#2-->
+                                                <li class="nav-item dropdown hardware">
+                                                    <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                        Hardware
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                        <li><a class="dropdown-item" href="#">Something else here</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <!--#3-->
+                                                <li class="nav-item dropdown servizi">
+                                                    <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                        Servizi
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                        <li><a class="dropdown-item" href="#">Something else here</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <!--#4-->
+                                                <li class="nav-item dropdown">
+                                                    <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                        Novità
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                        <li><a class="dropdown-item" href="#">Something else here</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <!--#5-->
+                                                <li class="nav-item dropdown acquisti">
+                                                    <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                        Fai acquisti
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                        <li><a class="dropdown-item" href="#">Something else here</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
                                 </ul>
-                            </li>
-                            <!--#2-->
-                            <li class="nav-item dropdown hardware">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Hardware
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </li>
-                            <!--#3-->
-                            <li class="nav-item dropdown servizi">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Servizi
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </li>
-                            <!--#4-->
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Novità
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </li>
-                            <!--#5-->
-                            <li class="nav-item dropdown acquisti">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Fai acquisti
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </li>
-                        </ul>
+                            </div>
+                        </div>
                     </div>
-                    <!-- il secondo gruppo -->
                     <div class="col-3 d-flex">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <!--#6-->
@@ -135,13 +147,17 @@
                             </li>
                         </ul>
                         <form class="d-flex" role="search">
-                            <button class="btn btn-outline-secondary bg-dark text-white rounded-4" type="submit">Accedi</button>
+                            <button class="btn btn-outline-secondary bg-dark text-white rounded-4"
+                                type="submit">Accedi</button>
                         </form>
                     </div>
                 </div>
             </div>
+            </div>
+            </div>
         </nav>
-  
+
+
     </header>
 
     <main>
