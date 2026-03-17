@@ -56,3 +56,7 @@
     border-bottom: 2px solid var(--bs-primary);
 
 }
+
+.img-container-ps>img:active , .img-container-ps>img:hover, .img-container-ps>img:focus {
+    opacity: 100% !important;
+}
