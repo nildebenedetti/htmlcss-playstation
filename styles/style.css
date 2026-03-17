@@ -42,9 +42,15 @@
     padding: 5px;;
 }
 
-.btn-service-banner {
+.btn-service-banner-ps-plus {
     background-color: #D9DADC ;
     color:var(--bs-primary);
+    font-size:12px;
+}
+
+.btn-service-banner-ps-now {
+    background-color: #F5F5F5;
+    color:black;
     font-size:12px;
 }
 
@@ -60,13 +66,20 @@
 
 /*Banners*/
 
-.service-banner {
+.service-banner.ps-plus {
     background-color: #BEBCBB;
     color:#1A1A1A;
     min-height:40vh;
 }
 
-        .service-banner p {
+.service-banner.ps-now {
+    background-color: #161C3B;
+    color:#fff;
+    min-height:40vh;
+}
+
+
+    .service-banner p {
             font-size:12px;
         }
     
