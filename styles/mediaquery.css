@@ -1,0 +1,25 @@
+
+/* Imposto media query per sistemare il comportamento delle icone social */
+
+.socia-icon {
+    max-width:100%;
+}
+
+.social-media-grid {
+    justify-content: flex-start;
+    flex-grow: 1;
+    }
+
+
+
+@media screen and (min-width:768px) {
+    .social-icon {
+        max-width: 100px;
+    }
+
+    .social-media-grid {
+        justify-content: center;
+        flex-grow: 0;
+    }
+
+}
