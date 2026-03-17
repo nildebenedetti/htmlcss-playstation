@@ -23,4 +23,31 @@
     }
 
 }
+/* Ingrandisco logo games banner da md*/
 
+.logo-returnal {
+    width: 200px;
+}
+
+/* questa parte non mi viene la vedo con Samuel 
+
+.logo-it-takes-two {
+     width: 200px;
+}
+*/
+
+@media screen and (min-width:768px) {
+    .logo-returnal {
+        width:350px;
+
+}
+
+/* questa parte non mi viene la vedo con Samuel 
+
+    .logo-it-takes-two {
+     width:300px;
+     aspect-ratio: auto;
+    
+} */
+
+}
