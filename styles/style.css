@@ -123,3 +123,12 @@
 .banner-wrapper {
     min-height: 30vh;
 }
+
+/* Footer */
+
+.footer {
+    background-color: #00439C;
+    color:#fff;
+    font-size: 8px !important;
+
+}
