@@ -41,12 +41,24 @@
 
 
 .hero-game-card {
-    background-image: url(../img/jumbo-bg.png);
+    
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
     min-height: 60vh;
 }
+
+/*Le img di sfondo per i banner*/ 
+
+.returnal-card {
+    background-image: url(../img/jumbo-bg.png);
+}
+
+.it-takes-two-card {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+
 
 /* Per gestire active e hover delle thumbnail nbel carousel di PS5 */
 
