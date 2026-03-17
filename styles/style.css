@@ -103,9 +103,13 @@
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 
+/* section PS5 */
 
+.headline {
+    font-size: 12px;;
+}
 
-/* Per gestire active e hover delle thumbnail nbel carousel di PS5 */
+/* Per gestire active e hover delle thumbnail nel carousel di PS5 */
 
 .img-container-ps:active, .img-container-ps:hover, .img-container-ps:focus {
     --bs-text-opacity: 1;
