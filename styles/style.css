@@ -40,3 +40,10 @@
 }
 
 
+.hero-game-card {
+    background-image: url(img/jumbo-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    min-height: 60vh;
+}
