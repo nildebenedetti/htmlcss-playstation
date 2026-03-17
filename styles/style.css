@@ -41,7 +41,7 @@
 
 
 .hero-game-card {
-    background-image: url(img/jumbo-bg.png);
+    background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
