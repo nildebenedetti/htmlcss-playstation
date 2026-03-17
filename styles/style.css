@@ -132,3 +132,8 @@
     font-size: 8px !important;
 
 }
+
+footer a  {
+    text-decoration: none;
+    color: #fff;
+}
