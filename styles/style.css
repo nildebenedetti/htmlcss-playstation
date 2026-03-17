@@ -155,11 +155,12 @@ footer a  {
 }
 
 .world-icon {
-    width:12px;
+    width:14px;
     position: relative;
     top: 5%;
     left: 5%;
-    transform: translate(0, 12%);
+    transform: translate(0, 15%);
+}
 }
 
 img.sony-logo {
