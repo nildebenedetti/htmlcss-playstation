@@ -161,10 +161,10 @@ footer a  {
     left: 5%;
     transform: translate(0, 15%);
 }
-}
+
 
 img.sony-logo {
-    width:90px;
+    max-width:90px;
 }
 
 .ps-logo-white {
