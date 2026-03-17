@@ -137,3 +137,18 @@ footer a  {
     text-decoration: none;
     color: #fff;
 }
+
+/* Posityion world icon */
+
+.country-selected {
+    position:absolute;
+}
+
+.world-icon {
+    position: relative;
+    top: -12%;
+    left: 5%;
+    transform: translate(-50%, 20%);
+}
+
+
