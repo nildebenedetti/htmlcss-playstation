@@ -28,8 +28,10 @@
 
 }
 
-/* Utilities */
+/* ======== UTILITIES ====== */
 
+
+/* Buttons*/
 
 
 .search-btn {
@@ -40,6 +42,13 @@
     padding: 5px;;
 }
 
+.btn-service-banner {
+    background-color: #D9DADC ;
+    color:var(--bs-primary);
+    font-size:12px;
+}
+
+/*Cards*/
 
 .hero-game-card {
     
@@ -49,11 +58,22 @@
     min-height: 60vh;
 }
 
+/*Banners*/
+
 .service-banner {
     background-color: #BEBCBB;
     color:#1A1A1A;
     min-height:40vh;
 }
+
+        .service-banner p {
+            font-size:12px;
+        }
+    
+
+
+/* =============================== */
+
 
 /*Le img di sfondo per i banner*/ 
 
