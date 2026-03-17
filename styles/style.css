@@ -5,6 +5,7 @@
 /* uso due utility classes e sovrascrivo il colore */
 
 :root {
+
   --bs-primary: #2A5FD9;
   --bs-warning: #CD3D10;
   --bs-body-font-family: Arial, Helvetica;
@@ -25,7 +26,7 @@
         --bs-btn-disabled-border-color: #CD3D10;
     }
 
-
+}
 
 /* Utilities */
 
@@ -71,4 +72,9 @@
 
 .img-container-ps>img:active , .img-container-ps>img:hover, .img-container-ps>img:focus {
     opacity: 100% !important;
+}
+
+.game-card-square p {
+    font-size: 0.8rem;
+    
 }
