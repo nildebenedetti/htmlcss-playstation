@@ -26,7 +26,7 @@ FEEDBACK 18/03/2026
 
 Da applicare ora:
 
-- Correggere gli errori emersi in W3C validator
+- Correggere gli errori emersi in W3C validator --check
 - rimuovere style inline (es.imgs)
 - dare classi sensate anche al footer
 - rimuovere sottosezioni dal root: i.e. per button warning lasciare variabili 'sciolte'in root,
