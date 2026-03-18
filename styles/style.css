@@ -22,12 +22,6 @@
     border-color: #CD3D10;
 }
 
-/* Stato Hover */
-.btn-warning:hover {
-    color: var(--bs-btn-hover-color);
-    background-color: var(--bs-btn-hover-bg);
-    border-color: var(--bs-btn-hover-border-color);
-}
 
 /* Stato Active */
 .btn-warning:active, 
