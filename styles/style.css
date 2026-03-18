@@ -106,7 +106,7 @@
 /* section PS5 */
 
 .headline {
-    font-size: 12px;;
+    font-size: 12px;
 }
 
 /* Per gestire active e hover delle thumbnail nel carousel di PS5 */
@@ -155,7 +155,7 @@ footer a  {
 }
 
 .world-icon {
-    width:14px;
+    width:14px !important;
     position: relative;
     top: 5%;
     left: 5%;
