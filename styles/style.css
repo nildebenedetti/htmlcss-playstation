@@ -157,7 +157,7 @@
     transform: rotate(180deg);
 }
 
-/* Cambiare chevron in stato hover */
+/*=== Cambiare chevron in stato hover ===*/
 
 .navbar .dropdown-toggle:hover::after {
     /* 1. Reset: rimuoviamo la freccia triangolare di Bootstrap */
@@ -185,6 +185,8 @@
 .dropdown-toggle.showhover::after {
     transform: rotate(180deg);
 }
+
+/*========================================*/
 
 /*Le img di sfondo per i banner*/
 
