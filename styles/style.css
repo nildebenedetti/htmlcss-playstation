@@ -7,8 +7,6 @@
     --bs-primary: #2A5FD9;
     --bs-warning: #CD3D10;
     --bs-body-font-family: Arial, Helvetica;
-
-
     --bs-btn-color: #000;
     --bs-btn-bg: #CD3D10;
     --bs-btn-border-color: #CD3D10;
@@ -28,6 +26,38 @@
 
 
 /* Buttons*/
+
+/* Sovrascrittura del bottone Warning di Bootstrap */
+.btn-warning {
+    color: var(--bs-btn-color);
+    background-color: var(--bs-btn-bg);
+    border-color: var(--bs-btn-border-color);
+}
+
+/* Stato Hover */
+.btn-warning:hover {
+    color: var(--bs-btn-hover-color);
+    background-color: var(--bs-btn-hover-bg);
+    border-color: var(--bs-btn-hover-border-color);
+}
+
+/* Stato Active */
+.btn-warning:active, 
+.btn-warning:focus {
+    color: var(--bs-btn-active-color);
+    background-color: var(--bs-btn-active-bg);
+    border-color: var(--bs-btn-active-border-color);
+    box-shadow: var(--bs-btn-active-shadow);
+}
+
+/* Stato Disabled */
+.btn-warning:disabled {
+    color: var(--bs-btn-disabled-color);
+    background-color: var(--bs-btn-disabled-bg);
+    border-color: var(--bs-btn-disabled-border-color);
+}
+
+/* ========================================= */
 
 
 .search-btn {
