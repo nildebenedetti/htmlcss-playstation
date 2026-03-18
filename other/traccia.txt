@@ -20,3 +20,24 @@ L'ordine di sviluppo dei blocchi lo possiamo decidere anche in ottica di ottimiz
 
 Partite comunque sempre semplici e fate un passo alla volta.
 Come sempre cercate di capire quello che state facendo, cercate di finirlo ma non puntate a finirlo a tutti i costi, se ciò vuol dire non capirci più nulla.
+
+
+FEEDBACK 18/03/2026
+
+Da applicare ora:
+
+- Correggere gli errori emersi in W3C validator
+- rimuovere style inline (es.imgs)
+- dare classi sensate anche al footer
+- rimuovere sottosezioni dal root: i.e. per button warning lasciare variabili 'sciolte'in root,
+ e poi in utilities btn riassegnare a btn warning le variabilidi root
+- correggi typo 'roiow''
+- rivedi indentazione container/row/col: il container non si ripete se indento una row nella col
+
+Da considerare per il futuro:
+
+Metodo commit: Andiamo a lavorare maggiormente sulla contestualizzazione dei commit.
+e.g. 'fix p typo'--> 'fix typo in p of section games-card it-takes-two, index.html'.
+Scegli una lingua per il commit.
+
+
