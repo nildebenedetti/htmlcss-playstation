@@ -15,31 +15,12 @@
 
 /* Buttons*/
 
-/* Sovrascrittura del bottone Warning di Bootstrap */
+/* btn games-carousel */
 .btn-hero {
     color: #fff;
     background-color: #CD3D10;
     border-color: #CD3D10;
 }
-
-
-/* Stato Active */
-.btn-warning:active, 
-.btn-warning:focus {
-    color: var(--bs-btn-active-color);
-    background-color: var(--bs-btn-active-bg);
-    border-color: var(--bs-btn-active-border-color);
-    box-shadow: var(--bs-btn-active-shadow);
-}
-
-/* Stato Disabled */
-.btn-warning:disabled {
-    color: var(--bs-btn-disabled-color);
-    background-color: var(--bs-btn-disabled-bg);
-    border-color: var(--bs-btn-disabled-border-color);
-}
-
-/* ========================================= */
 
 
 .search-btn {
@@ -56,6 +37,11 @@
     color: var(--bs-primary);
     font-size: 12px;
 }
+
+.btn-service-banner-ps-plus:hover {
+    color: #fff;
+}
+
 
 .btn-service-banner-ps-now {
     background-color: #F5F5F5;
