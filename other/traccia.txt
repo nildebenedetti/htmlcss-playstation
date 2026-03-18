@@ -27,12 +27,12 @@ FEEDBACK 18/03/2026
 Da applicare ora:
 
 - Correggere gli errori emersi in W3C validator --check
-- rimuovere style inline (es.imgs)
-- dare classi sensate anche al footer
+- rimuovere style inline (es.imgs) --check
+- dare classi sensate anche al footer --check
 - rimuovere sottosezioni dal root: i.e. per button warning lasciare variabili 'sciolte'in root,
- e poi in utilities btn riassegnare a btn warning le variabilidi root
-- correggi typo 'roiow''
-- rivedi indentazione container/row/col: il container non si ripete se indento una row nella col
+ e poi in utilities btn riassegnare a btn warning le variabilidi root  --check
+- correggi typo 'roiow''  --check
+- rivedi indentazione container/row/col: il container non si ripete se indento una row nella col  --check
 
 Da considerare per il futuro:
 
