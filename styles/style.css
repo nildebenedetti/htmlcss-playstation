@@ -20,6 +20,7 @@
     --bs-btn-disabled-color: #000;
     --bs-btn-disabled-bg: #CD3D10;
     --bs-btn-disabled-border-color: #CD3D10;
+    --bs-nav-link-indicator: url(../img/img/chevron-down-solid.svg);
 }
 
 /* ======== UTILITIES ====== */
@@ -124,6 +125,36 @@
 
 .ps-logo {
     height:50px;
+}
+
+
+/* cambiare chevron */
+
+.navbar .dropdown-toggle::after {
+    /* 1. Reset: rimuoviamo la freccia triangolare di Bootstrap */
+    display: inline-block;
+    content: "";
+    border: none;      /* <--- IMPORTANTE: questo toglie la vecchia freccia */
+    vertical-align: middle;
+    width: 0.8em;
+    height: 0.8em;
+    margin-left: 0.5rem;
+
+    /* 2. inserisco nuova icona SVG */
+    background-image: url('../img/chevron-down-solid.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    /* 3. Animazione */
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Rotazione quando il menu è aperto */
+/* Nota: Bootstrap 5.3 a volte mette .show sul link stesso, controlliamo entrambi */
+.dropdown.show .dropdown-toggle::after,
+.dropdown-toggle.show::after {
+    transform: rotate(180deg);
 }
 
 /*Le img di sfondo per i banner*/
