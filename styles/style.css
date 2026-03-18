@@ -107,7 +107,7 @@
 }
 
 
-/* Style immagini */
+/* Style immagini games-card */
 
 .logo-returnal {
     height:70px;
@@ -115,6 +115,12 @@
 
 .logo-it-takes-two {
     height:150px;
+}
+
+/* style immagini ps-services */
+
+.logo-ps-plus {
+    height:50px;
 }
 
 
