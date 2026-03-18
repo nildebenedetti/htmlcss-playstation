@@ -106,7 +106,16 @@
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 
+
+/* Style immagini */
+
+.logo-returnal {
+    height:70px;
+}
+
+
 /* section PS5 */
+
 
 .headline {
     font-size: 12px;
