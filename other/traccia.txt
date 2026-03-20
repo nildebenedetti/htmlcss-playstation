@@ -40,4 +40,14 @@ Metodo commit: Andiamo a lavorare maggiormente sulla contestualizzazione dei com
 e.g. 'fix p typo'--> 'fix typo in p of section games-card it-takes-two, index.html'.
 Scegli una lingua per il commit.
 
+Altre migliorie dalla correzione:
+- container-lg per hero giochi
+
+
+navbar
+-aggiungi azzurrino font a hover
+dare position absolute al dropdown
+- le ul sono in contaainer flex
+- cambiare img nel carosello quando hover-animazione carosello giochi - le thumb salgono in alto (cerca classi bootstrap)
+-per spostare it takes two sezione a sx va messo con col-6 da lg
 
